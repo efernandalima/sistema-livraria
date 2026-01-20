@@ -195,7 +195,7 @@ ID   Título                            Autor
 
 ## 👨‍💻 Autor
 
-**Fernanda Raimundo de Lima**\
+**Fernanda Lima**\
 GitHub: https://github.com/efernandalima\
 LinkedIn: https://www.linkedin.com/in/fernandaliima/
 
