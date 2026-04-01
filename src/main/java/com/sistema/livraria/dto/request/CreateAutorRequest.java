@@ -1,0 +1,16 @@
+package com.sistema.livraria.dto.request;
+
+import jakarta.validation.constraints.NotBlank;
+import jakarta.validation.constraints.Past;
+import jakarta.validation.constraints.Size;
+import java.time.LocalDate;
+
+public record CreateAutorRequest(
+
+        @NotBlank(message = "Nome é obrigatório")
+        @Size(min = 2, max = 200, message = "Nome deve ter entre 2 e 200 caracteres")
+        String nome,
+
+        @Past(message = "Data de nascimento deve ser no passado")
+        LocalDate nascimento
+) {}
